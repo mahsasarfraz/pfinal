@@ -1,0 +1,35 @@
+.blog {
+  width: 100%;
+  height: 280px;
+  /* background-color: gold; */
+  display: flex;
+  justify-content: center;
+  .blog-center {
+    width: 85%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    .article {
+      width: 24%;
+      height: 100%;
+      /* margin: 0px 15px; */
+      /* background-color: tan; */
+      border: 1px solid lightgray;
+      border-radius: 7px;
+      img {
+        width: 100%;
+        height: 201.45px;
+        object-fit: cover;
+        border-radius: 7px 7px 0 0;
+      }
+      div {
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        padding: 0 16px;
+        margin: 8px 0 12px 0px;
+        line-height: 25px;
+      }
+    }
+  }
+}

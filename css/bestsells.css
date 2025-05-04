@@ -1,0 +1,120 @@
+.bestsells {
+  width: 100%;
+  height: 404px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  .bestsells-center {
+    width: 85%;
+    height: 100%;
+    /* background-color: green; */
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    .top {
+      width: 100%;
+      height: 20%;
+      /* background-color: blue; */
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      p {
+        width: 90%;
+        font-family: var(--fontfamily);
+        font-size: 21px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+      div {
+        width: 10%;
+        font-family: var(--fontfamily);
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 15px;
+        color: #19bfd3;
+      }
+    }
+    .bottom {
+      width: 100%;
+      height: 80%;
+      /* background-color: red; */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        width: 100%;
+        height: 95%;
+        text-align: center;
+        font-size: 18px;
+        /* background: #4e18cc; */
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+
+        .slide-item {
+          width: 100%;
+          height: 33.1%;
+          /* column-gap: 5px !important; */
+          /* background-color: palevioletred; */
+
+          .slide-item-product {
+            width: 100%;
+            height: 100%;
+            /* background-color: gray; */
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+
+            img {
+              width: 86px;
+              height: 86px;
+            }
+            span {
+              font-family: var(--fontfamily);
+              font-weight: 1000;
+              font-size: 26px;
+              color: #19bfd3;
+              margin: 0px 10px 0px 10px;
+            }
+            div {
+              width: 70%;
+              font-family: var(--fontfamily);
+              font-size: 13px;
+
+              color: gray;
+              text-align: right;
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+            }
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.border-item {
+  width: 60%;
+  height: 1px;
+  background-color: lightgray;
+  margin-right: auto;
+}

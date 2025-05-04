@@ -1,0 +1,21 @@
+.aks2 {
+  width: 100%;
+  height: 264px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  .aks2-center {
+    width: 85%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    img {
+      width: 637px;
+      height: 264px;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+  }
+}

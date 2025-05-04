@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+@font-face {
+  font-family: IranYekan;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: nazaninNumber;  
+  src: url(../fonts/number/Far_Nazanin.ttf);
+ 
+}
+@font-face {
+  font-family: bakhNumber;  
+  src: url(../fonts/number/yekanbakh/Yekan\ Bakh\ FaNum\ 06\ Bold.woff);
+ 
+}
+:root {
+  --fontfamily: IranYekan;
+  --fontfamilynumber : nazaninNumber;
+  --fontfamilynumber2: bakhNumber;
+.wrapper {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #e0e0e2;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 12px;
+  color: grey;
+  font-weight: bold;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.login {
+  width: 100%;
+  height: 100vh;
+  /* background-color: green; */
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  .login-center {
+    width: 398px;
+    height: 480px;
+    padding: 32px;
+    /* background-color: red; */
+    top: calc(50% - 480px/2);
+    left: calc(50% - 398px/2);
+    position: absolute;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    .login-logo {
+      width: 100%;
+      height: 70px;
+      margin-bottom: 43px;
+      /* background-color: yellow; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100px;
+        height: 69px;
+      }
+    }
+    .enter {
+      width: 100%;
+      height: 200px
+      /* background-color: brown; */
+      padding: 20px 15px 0px 15px;
+      h1 {
+        font-family: var(--fontfamily);
+        font-size: 19px;
+        font-weight: 400px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-family: var(--fontfamily);
+        margin-bottom: 10px;
+        font-size: 12px;
+      }
+    }
+    .label {
+      width: 100%;
+      input[type="text"] {
+        width: 100%;
+        height: 50px;
+        border: 1.5px solid #b2001a;
+        border-radius: 7px;
+        margin-top: 12px;
+      }
+      p{
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        color: #b2001a;
+        margin-top: 4px;
+      }
+    }
+    .submit{
+        width: 100%;
+        height: 100px;
+        /* background-color: saddlebrown; */
+     .submit-text{
+        width: 100%;
+        height: 50px;
+        background-color: #ef4056;
+        border-radius: 7px;
+        border: 1px solid lightcoral;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: var(--fontfamily);
+        text-align: center;
+        line-height: 50px;
+        margin-top: 40px;
+        
+     }
+     p {
+      font-family: var(--fontfamily);
+      font-size: 11px;
+      padding: 15px 0;
+      a{
+        color: #008eb2;
+        text-decoration: none;
+      }
+    }
+    }
+  }
+}
