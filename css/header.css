@@ -187,7 +187,7 @@
 
 .city {
   width: 450px;
-  max-height: 60vh;
+  height: 80vh;
   background-color: white;
   box-shadow: 0 0 5px #1b1b1b;
   position: fixed;
